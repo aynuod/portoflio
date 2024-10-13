@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# Eric Huang Personal Portfolio Website 🧑🏻‍💻
+# GOURJA DOUNYA Personal Portfolio Website 🧑🏻‍💻
 
-Link: [erichuang.art](https://erichuang.art)
+
 
 A super clean personal portfolio website, built with:
 
