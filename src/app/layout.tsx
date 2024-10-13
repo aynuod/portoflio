@@ -7,22 +7,22 @@ import GridBackground from "@/components/grid-background";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Eric Huang | Personal",
+  title: "GOURJA DOUNYA | Software Engineer",
   metadataBase: new URL("https://www.erichuang.art"),
   alternates: {
     canonical: "/",
   },
   authors: [
-    { name: "Eric Huang", url: "https://github.com/erich2s" },
-    { name: "黄士崧", url: "https://github.com/erich2s" },
+    { name: "dounya gourja", url: "https://github.com/aynuod" },
+
   ],
-  description: "Eric Huang's personal portfolio website, 黄士崧的个人网站",
+  description: "dounya gourja's personal portfolio website",
   openGraph: {
-    title: "Eric Huang | Personal",
-    description: "Eric Huang's personal portfolio website, 黄士崧的个人网站",
+    title: "GOURJA DOUNYA | Software Engineer",
+    description: "dounya gourja's personal portfolio website",
     images: [
       {
-        url: "/photo.jpeg",
+        url: "/photoo.jpeg",
         alt: "Eric Huang's Portrait",
         width: 640,
         height: 800,

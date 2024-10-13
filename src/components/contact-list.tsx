@@ -5,6 +5,7 @@ import {
   faGithub,
   faTiktok,
   faXTwitter,
+  faLinkedin, // Ajoutez l'importation de l'icône LinkedIn
 } from "@fortawesome/free-brands-svg-icons";
 import MotionList from "./motion-list";
 import { Button } from "@/components/ui/button";
@@ -15,45 +16,41 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
+
 type Contact = {
   name: string;
   className: string;
   href: string;
   icon: any;
 };
+
 const contacts: Contact[] = [
   {
     name: "Email",
     className: "bg-yellow-500 hover:bg-yellow-600",
-    href: "mailto:erich2s0103@gmail.com",
+    href: "mailto:dounyagourja2@gmail.com", // Mettre à jour avec votre email
     icon: faEnvelope,
-  },
-
-  {
-    name: "X",
-    className: "bg-black hover:bg-gray-800/90",
-    href: "https://twitter.com/erich2s",
-    icon: faXTwitter,
   },
   {
     name: "Github",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://github.com/erich2s",
+    href: "https://github.com/aynuod", // Mettre à jour avec votre GitHub
     icon: faGithub,
   },
   {
     name: "Instagram",
     className: "bg-pink-500 hover:bg-pink-600",
-    href: "https://instagram.com/eric.h2s/",
+    href: "https://www.instagram.com/dounya.gourja/profilecard/?igsh=MXh1MmZ4b3h5NGM5bQ==", // Mettre à jour avec votre Instagram
     icon: faInstagram,
   },
   {
-    name: "TikTok",
-    className: "bg-black hover:bg-gray-800/90",
-    href: "https://tiktok.com/@erich2s",
-    icon: faTiktok,
+    name: "LinkedIn", // Ajout de l'entrée LinkedIn
+    className: "bg-blue-600 hover:bg-blue-700", // Choisissez une couleur qui correspond à votre thème
+    href: "https://www.linkedin.com/in/dounya-gourja-820217214/", // Mettez à jour avec votre profil LinkedIn
+    icon: faLinkedin,
   },
 ];
+
 export default function ContactList({
   delayOffset = 0,
   showWhenInView = true,
@@ -78,6 +75,7 @@ export default function ContactList({
                 <a
                   href={contact.href}
                   target="_blank"
+                  rel="noopener noreferrer" // Ajoutez cette ligne pour des raisons de sécurité
                   aria-label={contact.name}
                 >
                   <FontAwesomeIcon icon={contact.icon} className="w-fit" />

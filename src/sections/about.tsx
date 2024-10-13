@@ -14,10 +14,9 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hello, I'm Eric Huang and my Chinese is
-              <span className="whitespace-nowrap"> 黄士崧(huáng shì sōng)</span>
-              . I'm an independent <b>TypeScript Full-Stack</b> developer based
-              in Nanning, China.
+              Hello,my name is <b>Dounya Gourja</b> and I’m a
+              <b> Junior Software Engineer</b> with a passion for <b>Data Science and Machine Learning</b> developer based
+              in Rabat, Morocco.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.5}>
@@ -31,11 +30,18 @@ export default function about() {
           </MotionDiv>
           <MotionDiv delayOffset={0.6}>
             <p>
-              Outside of programming, I am also a photographer and filmmaker, I
-              enjoy doing photography and filmmaking and all things visual. I
-              hope my works can aspires people to see the beauty of the world
-              around us. So welcome to subscribe to my social media channels
-              above to see my works!
+            Outside of programming, I am also a passionate writer. 
+            My writing is not just a hobby, but a way to connect with others and share perspectives.
+            Moreover, I have a deep love for volunteering and helping people. I believe in the power of community
+            service and the positive impact it can have on both individuals and society.
+            </p>
+          </MotionDiv>
+          <MotionDiv delayOffset={0.7}>
+            <p>
+              I am always looking for new opportunities to grow and learn. If you
+              have a project that you would like to collaborate on, feel free to
+              contact me. I would love to hear from you!
+              {/* So welcome to subscribe to my social media channels above to see my works! */}
             </p>
           </MotionDiv>
         </article>
@@ -44,7 +50,7 @@ export default function about() {
         <MotionDiv delayOffset={0.4}>
           <CoolPortraitCard className="hidden lg:block">
             <img
-              src="/photo.jpeg"
+              src="/photo1.jpg"
               alt="photo"
               className="w-[350px] min-w-[300px] rounded-xl transition-all"
             />
@@ -52,7 +58,7 @@ export default function about() {
         </MotionDiv>
         <MotionDiv delayOffset={0.4}>
           <img
-            src="/photo.jpeg"
+            src="/photo1.jpg"
             alt="photo"
             className="w-[350px] min-w-[300px] rounded-xl transition-all hover:rotate-3 hover:scale-105 lg:hidden"
           />

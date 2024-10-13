@@ -2,6 +2,7 @@
 import Link from "next/link";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
+
 const goldenSignature = localFont({
   src: "../assets/GoldenSignature.otf",
   display: "swap",
@@ -9,17 +10,13 @@ const goldenSignature = localFont({
 
 export default function Header() {
   const links = ["about", "skills", "contact"];
+  
   return (
     <>
-      <nav className="justify-centerpy-2 flex w-full select-none pt-6 font-light md:px-28 md:pb-2">
+      <nav className="justify-center py-2 flex w-full select-none pt-6 font-light md:px-28 md:pb-2">
         <div className="container flex flex-col items-center justify-between md:flex-row">
-          <div
-            className={cn(
-              "text-5xl drop-shadow-2xl",
-              goldenSignature.className,
-            )}
-          >
-            <Link href="/">Eric Huang</Link>
+          <div className={cn("text-5xl drop-shadow-2xl", goldenSignature.className)}>
+            <Link href="/">AYNUOD</Link>
           </div>
           <div className="nav-links flex gap-x-8 text-xs md:text-base">
             {links.map((link) => (
@@ -27,14 +24,14 @@ export default function Header() {
                 key={link}
                 className="cursor-pointer"
                 onClick={() => {
-                  document
-                    .getElementById(link)
-                    ?.scrollIntoView({ behavior: "smooth" });
+                  document.getElementById(link)?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
                 {link.charAt(0).toUpperCase() + link.slice(1)}
               </span>
             ))}
+            <Link href="/projects">Projects</Link>
+            <Link href="/ProfessionalExperience">Experience</Link>
           </div>
         </div>
       </nav>
