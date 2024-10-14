@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Personal Portfolio",
       technologies: ["Next.js", "React", "Tailwind CSS", "Shadcn UI"],
       description: "A personal website showcasing my projects and professional journey.",
-      githubUrl: "https://github.com/DounyaGourja/mon-portfolio",
+      githubUrl: "https://github.com/aynuod/portoflio.git",
       date: "September 2024",
     },
     {
