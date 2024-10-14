@@ -39,7 +39,7 @@ export default function hero() {
       <div className="my-1"> {/* Change my-4 to my-2 to reduce the vertical margin */}
   <MotionDiv delayOffset={1.5}>
     <a
-      href="/path/to/your/CV.pdf"
+      href="https://drive.google.com/file/d/16QtKSQ-USNJ3V_anQ9CzoB2_HQ5Wtekf/view?usp=sharing"
       download
       className="inline-block rounded bg-gray-500 px-4 py-2 text-white hover:bg-gray-900 transition"
     >
