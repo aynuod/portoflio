@@ -3,14 +3,13 @@ import ProjectCard from "@/components/ProjectCard";
 
 const Projects = () => {
   const projects = [
-    // {
-    //   title: "Personal Portfolio",
-    //   technologies: ["Next.js", "React", "Tailwind CSS", "Shadcn UI"],
-    //   description: "A personal website showcasing my projects and professional journey.",
-    //   videoUrl: "/videos/portfolio-demo.mp4",
-    //   githubUrl: "https://github.com/DounyaGourja/mon-portfolio",
-    //   date: "September 2024",
-    // },
+    {
+      title: "Personal Portfolio",
+      technologies: ["Next.js", "React", "Tailwind CSS", "Shadcn UI"],
+      description: "A personal website showcasing my projects and professional journey.",
+      githubUrl: "https://github.com/DounyaGourja/mon-portfolio",
+      date: "September 2024",
+    },
     {
       title: "CI/CD Pipeline with Jenkins and SonarQube",
       technologies: ["Spring Boot", "SonarQube", "Docker"],
